@@ -1,0 +1,31 @@
+# Site settings
+title: A Cup of Cloud
+email: nicole.el.tompkins@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  A Salesforce blog full of lightning experiences.
+baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+twitter_username: nelindenmayer
+github_username:  lindenmayer.github.io
+
+# Build settings
+markdown: kramdown
+
+highlighter: pygments
+
+gems: [jekyll-paginate]
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+
+collections:
+  # portfolio:
+  #   output: true
+  #   permalink: /portfolio/:path/
+  # poetry:
+  #   output: true
+  #   permalink: /poetry/:path/
+
+
